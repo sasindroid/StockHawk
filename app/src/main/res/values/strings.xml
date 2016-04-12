@@ -1,0 +1,46 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_change_units">Change Units</string>
+    <string name="symbol_search">Symbol Search</string>
+    <string name="content_test">Search for a Stock Symbol</string>
+    <string name="input_hint"><xliff:g id="hint">FB</xliff:g></string>
+    <string name="input_prefill"></string>
+    <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+
+    <!-- Empty Stock Database -->
+    <string name="empty_stock_list">No Stock Information Available</string>
+    <string name="empty_stock_list_no_network">No stock information available. The network is not available to fetch stock data.</string>
+    <string name="empty_stock_list_server_down">No stock information available. The server is not returning data.</string>
+    <string name="empty_stock_list_server_error">No stock information available. The server is not returning valid data. Please check for an updated version of Stock Hawk.</string>
+    <string name="empty_stock_list_invalid_symbol">No stock information available. The stock symbol in search is not recognized by the Stock server.</string>
+
+    <!-- Add/Update Stock info -->
+    <string name="empty_add_stock_not_available">Specified Stock Information Available</string>
+    <string name="empty_add_stock_list_no_network">The network is not available to fetch stock data.</string>
+    <string name="empty_add_stock_list_server_down">No stock information available. The server is not returning data.</string>
+    <string name="empty_add_stock_list_server_error">No stock information available. The server is not returning valid data.</string>
+    <string name="empty_add_stock_list_invalid_symbol">The stock symbol in search is not recognized by the Stock server.</string>
+
+
+    <!-- Key name for storing stock status in SharedPreferences -->
+    <string name="pref_stock_status_key" translatable="false">stock-status</string>
+    <string name="pref_stock_add_status_key" translatable="false">stock-addstatus</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="stock_already_saved">This stock is already saved!</string>
+    <string name="enter_valid_symbol">Please enter a valid Stock Symbol.</string>
+
+    <string name="tag_fragment_chart">tag_fragment_chart</string>
+    <string name="chart_header"><xliff:g id="chart_symbol">%1$s</xliff:g> - Bid price over Time (Latest <xliff:g id="chart_latest_count">%2$d</xliff:g>)</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="content_add_new_stock_symbol">Add a new Stock symbol</string>
+    <string name="content_line_chart">Line chart showing Stock Bid price over time for Symbol <xliff:g id="content_symbol">%s</xliff:g></string>
+    <string name="content_stock_row">Stock details for symbol <xliff:g id="content_symbol_row">%s</xliff:g></string>
+    <string name="widget_title">Stock Hawk</string>
+
+</resources>
