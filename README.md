@@ -21,4 +21,4 @@ This project uses android WilliamChart Library to implement LineChart.
 
 ###License###
 
-Ledbetter is distributed under the MIT license.
+StockHawk is distributed under the MIT license.
