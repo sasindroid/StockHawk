@@ -14,6 +14,7 @@ Designed to work only on Phones. You might try implementing two pane for Tablet 
 ###Supported Android versions###
 
 Min SDK: 16
+Compile SDK: 23
 
 ###Libraries used (Dependencies)###
 
